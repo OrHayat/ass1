@@ -1,0 +1,8 @@
+prefix=/tmp/guest-tndmdr/catkin_ws/install
+
+Name: assigment1
+Description: Description of assigment1
+Version: 0.0.0
+Cflags: -I/tmp/guest-tndmdr/catkin_ws/install/include
+Libs: -L/tmp/guest-tndmdr/catkin_ws/install/lib 
+Requires: message_runtime roscpp rospy std_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /tmp/guest-tndmdr/catkin_ws/install/setup.sh
