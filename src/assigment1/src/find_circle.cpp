@@ -46,14 +46,36 @@ int main(int argc, char ** argv)
    cv::Mat hsv_color;
    cv::cvtColor(color_ref,hsv_color,CV_RGB2HSV);//convert color to hsv
    unsigned char * p=hsv_color.ptr(0,0);
-   cv::Scalar scalarmin(p[0]-15,min(40,p[1]),min(40,p[2]));
-   cv::Scalar scalarmax(p[0]+15,min(p[1]+40,255),min(p[2]+40,255));
+      int hue=p[0];
+
+
+  cv::Mat mask;
+   if(hue<15||hue>=170)//red is special case
+   {
    std::cout<<"hsv"<<hsv_color<<std::endl;
    std::cout<<"rgb"<<color_ref<<std::endl;
+   cv::Scalar scalarmin(0,50,50);
+   cv::Scalar scalarmax(15,255,255);
+   cv::Scalar scalarmin1(170,50,50);
+   cv::Scalar scalarmax1(180,255,255);
+   cv::Mat hsv_img;//image as hsv
+  cv::Mat mask2;
+   cv::cvtColor(blured_img,hsv_img,CV_BGR2HSV);//fill image in hsv
+   cv::inRange(hsv_img,scalarmin,scalarmax,mask);//image with only the choosen color
+   cv::inRange(hsv_img,scalarmin1,scalarmax1,mask2);//image with only the choosen color
+   cv::addWeighted(mask,1.0,mask2,1.0,0.0,mask);
+   }
+   else
+{
+   std::cout<<"hsv"<<hsv_color<<std::endl;
+   std::cout<<"rgb"<<color_ref<<std::endl;
+
+   cv::Scalar scalarmin(p[0]-15,min(40,p[1]),min(40,p[2]));
+   cv::Scalar scalarmax(p[0]+15,min(p[1]+40,255),min(p[2]+40,255));
    cv::Mat hsv_img;//image as hsv
    cv::cvtColor(blured_img,hsv_img,CV_BGR2HSV);//fill image in hsv
-   cv::Mat mask;
    cv::inRange(hsv_img,scalarmin,scalarmax,mask);//image with only the choosen color
+}
    cv::erode(mask,mask,cv::Mat(),cv::Point(-1,-1),2);
    cv::dilate(mask,mask,cv::Mat(),cv::Point(-1,-1),2);
    cv::Canny(mask,mask,100,200,3,false);

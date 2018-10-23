@@ -42,6 +42,6 @@ int main(int argc, char ** argv)
   
   cv::imshow("img",colored_img);
   cv::waitKey(0);
-  cv::destroyAllWindows();
+
 return 0;
 }
