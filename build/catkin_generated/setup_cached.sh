@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/tmp/guest-tndmdr/catkin_ws/build"
-export ROS_PACKAGE_PATH="/tmp/guest-zdknoq/catkin_ws/src:/tmp/guest-tndmdr/catkin_ws/src:/opt/ros/kinetic/share"
+export PWD="/tmp/guest-obpl3l/catkin_ws/build"

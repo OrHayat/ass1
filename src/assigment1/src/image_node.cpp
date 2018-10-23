@@ -17,7 +17,7 @@ int main( int argc,  char** argv )
 ros::init(argc, argv, "ass1_img_node");
 ros::NodeHandle n;
 image_transport::ImageTransport it(n);
-image_transport::Publisher image_pub = it.advertise("ass1_imageNode", 1);
+image_transport::Publisher image_pub = it.advertise("ass1/Image", 1);
 
 cv::Mat image=cv::imread("colors.jpg",CV_LOAD_IMAGE_COLOR);
 if(image.empty())

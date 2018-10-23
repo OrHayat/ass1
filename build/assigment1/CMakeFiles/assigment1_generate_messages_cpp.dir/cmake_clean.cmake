@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/assigment1_generate_messages_cpp"
-  "/tmp/guest-tndmdr/catkin_ws/devel/include/assigment1/Color.h"
-  "/tmp/guest-tndmdr/catkin_ws/devel/include/assigment1/AddTwoInts.h"
+  "/tmp/guest-obpl3l/catkin_ws/devel/include/assigment1/Color.h"
+  "/tmp/guest-obpl3l/catkin_ws/devel/include/assigment1/Circle.h"
+  "/tmp/guest-obpl3l/catkin_ws/devel/include/assigment1/AddTwoInts.h"
 )
 
 # Per-language clean rules from dependency scanning.

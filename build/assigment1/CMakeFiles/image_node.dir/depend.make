@@ -209,6 +209,6 @@ assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /opt/ros/kinetic/incl
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /opt/ros/kinetic/include/std_msgs/String.h
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
-assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /tmp/guest-tndmdr/catkin_ws/devel/include/assigment1/Color.h
-assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /tmp/guest-tndmdr/catkin_ws/src/assigment1/src/image_node.cpp
+assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /tmp/guest-obpl3l/catkin_ws/devel/include/assigment1/Color.h
+assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /tmp/guest-obpl3l/catkin_ws/src/assigment1/src/image_node.cpp
 

@@ -53,6 +53,7 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
    Color.msg
+   Circle.msg
 #   Message1.msg
 #   Message2.msg
  )
@@ -227,4 +228,13 @@ add_executable(find_circle src/find_circle.cpp)
 target_link_libraries(find_circle ${catkin_LIBRARIES})
 target_link_libraries(find_circle ${OpenCV_LIBRARIES})
 add_dependencies(find_circle assigment1_generate_messages_cpp)
+
+
+
+
+add_executable(draw src/draw.cpp)
+target_link_libraries(draw ${catkin_LIBRARIES})
+target_link_libraries(draw ${OpenCV_LIBRARIES})
+add_dependencies(draw assigment1_generate_messages_cpp)
+
 

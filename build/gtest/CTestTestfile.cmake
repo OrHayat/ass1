@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/gmock
-# Build directory: /tmp/guest-tndmdr/catkin_ws/build/gtest
+# Build directory: /tmp/guest-obpl3l/catkin_ws/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

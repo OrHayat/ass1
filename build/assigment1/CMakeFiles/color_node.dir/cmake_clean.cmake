@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/color_node.dir/src/color_node.cpp.o"
-  "/tmp/guest-tndmdr/catkin_ws/devel/lib/assigment1/color_node.pdb"
-  "/tmp/guest-tndmdr/catkin_ws/devel/lib/assigment1/color_node"
+  "/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/color_node.pdb"
+  "/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/color_node"
 )
 
 # Per-language clean rules from dependency scanning.

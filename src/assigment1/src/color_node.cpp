@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 
   ros::NodeHandle n;//handler to ros system
 
-  ros::Publisher color_publisher = n.advertise<assigment1::Color>("color_ass1", 1);//publish on colo_ass1 topic with queue size of 1
+  ros::Publisher color_publisher = n.advertise<assigment1::Color>("ass1/Color", 1);//publish on colo_ass1 topic with queue size of 1
 
   ros::Rate loop_rate(10);
 
@@ -37,17 +37,17 @@ int main(int argc, char **argv)
    * A count of how many messages we have sent. This is used to create
    * a unique string for each message.
    */
-
-  while (n.ok())
-  {
-    /**
-     * This is a message object. You stuff it with data, and then publish it.
-     */
     assigment1::Color msg;
 
     msg.r=r;
     msg.g=g;
     msg.b=b;
+  while (n.ok())
+  {
+    /**
+     * This is a message object. You stuff it with data, and then publish it.
+     */
+
 
     ROS_INFO("r=%d g=%d b=%d", msg.r,msg.g,msg.b);
 

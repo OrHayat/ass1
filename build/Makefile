@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/guest-tndmdr/catkin_ws/src
+CMAKE_SOURCE_DIR = /tmp/guest-obpl3l/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/guest-tndmdr/catkin_ws/build
+CMAKE_BINARY_DIR = /tmp/guest-obpl3l/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-tndmdr/catkin_ws/build/CMakeFiles /tmp/guest-tndmdr/catkin_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-obpl3l/catkin_ws/build/CMakeFiles /tmp/guest-obpl3l/catkin_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-tndmdr/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-obpl3l/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -621,6 +621,19 @@ std_msgs_generate_messages_nodejs/fast:
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named _assigment1_generate_messages_check_deps_Circle
+
+# Build rule for target.
+_assigment1_generate_messages_check_deps_Circle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _assigment1_generate_messages_check_deps_Circle
+.PHONY : _assigment1_generate_messages_check_deps_Circle
+
+# fast build rule for target.
+_assigment1_generate_messages_check_deps_Circle/fast:
+	$(MAKE) -f assigment1/CMakeFiles/_assigment1_generate_messages_check_deps_Circle.dir/build.make assigment1/CMakeFiles/_assigment1_generate_messages_check_deps_Circle.dir/build
+.PHONY : _assigment1_generate_messages_check_deps_Circle/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
 
 # Build rule for target.
@@ -803,6 +816,19 @@ color_node/fast:
 .PHONY : color_node/fast
 
 #=============================================================================
+# Target rules for targets named draw
+
+# Build rule for target.
+draw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 draw
+.PHONY : draw
+
+# fast build rule for target.
+draw/fast:
+	$(MAKE) -f assigment1/CMakeFiles/draw.dir/build.make assigment1/CMakeFiles/draw.dir/build
+.PHONY : draw/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -863,6 +889,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... _assigment1_generate_messages_check_deps_Circle"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... assigment1_generate_messages"
 	@echo "... assigment1_generate_messages_cpp"
@@ -877,6 +904,7 @@ help:
 	@echo "... assigment1_genlisp"
 	@echo "... assigment1_gennodejs"
 	@echo "... color_node"
+	@echo "... draw"
 	@echo "... geometry_msgs_generate_messages_cpp"
 .PHONY : help
 

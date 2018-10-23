@@ -1,8 +1,8 @@
-# Install script for directory: /tmp/guest-tndmdr/catkin_ws/src/assigment1
+# Install script for directory: /tmp/guest-obpl3l/catkin_ws/src/assigment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/tmp/guest-tndmdr/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/tmp/guest-obpl3l/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,57 +33,60 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/msg" TYPE FILE FILES "/tmp/guest-tndmdr/catkin_ws/src/assigment1/msg/Color.msg")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/srv" TYPE FILE FILES "/tmp/guest-tndmdr/catkin_ws/src/assigment1/srv/AddTwoInts.srv")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-tndmdr/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1-msg-paths.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/tmp/guest-tndmdr/catkin_ws/devel/include/assigment1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/tmp/guest-tndmdr/catkin_ws/devel/share/roseus/ros/assigment1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/tmp/guest-tndmdr/catkin_ws/devel/share/common-lisp/ros/assigment1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/tmp/guest-tndmdr/catkin_ws/devel/share/gennodejs/ros/assigment1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/tmp/guest-tndmdr/catkin_ws/devel/lib/python2.7/dist-packages/assigment1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/tmp/guest-tndmdr/catkin_ws/devel/lib/python2.7/dist-packages/assigment1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/tmp/guest-tndmdr/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1.pc")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-tndmdr/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1-msg-extras.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES
-    "/tmp/guest-tndmdr/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1Config.cmake"
-    "/tmp/guest-tndmdr/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1Config-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/msg" TYPE FILE FILES
+    "/tmp/guest-obpl3l/catkin_ws/src/assigment1/msg/Color.msg"
+    "/tmp/guest-obpl3l/catkin_ws/src/assigment1/msg/Circle.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1" TYPE FILE FILES "/tmp/guest-tndmdr/catkin_ws/src/assigment1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/srv" TYPE FILE FILES "/tmp/guest-obpl3l/catkin_ws/src/assigment1/srv/AddTwoInts.srv")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-obpl3l/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1-msg-paths.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/tmp/guest-obpl3l/catkin_ws/devel/include/assigment1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/tmp/guest-obpl3l/catkin_ws/devel/share/roseus/ros/assigment1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/tmp/guest-obpl3l/catkin_ws/devel/share/common-lisp/ros/assigment1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/tmp/guest-obpl3l/catkin_ws/devel/share/gennodejs/ros/assigment1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/tmp/guest-obpl3l/catkin_ws/devel/lib/python2.7/dist-packages/assigment1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/tmp/guest-obpl3l/catkin_ws/devel/lib/python2.7/dist-packages/assigment1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/tmp/guest-obpl3l/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1.pc")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-obpl3l/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1-msg-extras.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES
+    "/tmp/guest-obpl3l/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1Config.cmake"
+    "/tmp/guest-obpl3l/catkin_ws/build/assigment1/catkin_generated/installspace/assigment1Config-version.cmake"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1" TYPE FILE FILES "/tmp/guest-obpl3l/catkin_ws/src/assigment1/package.xml")
 endif()
 
