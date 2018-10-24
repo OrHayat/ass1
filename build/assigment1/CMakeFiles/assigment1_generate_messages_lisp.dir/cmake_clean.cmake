@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/assigment1_generate_messages_lisp"
-  "/tmp/guest-obpl3l/catkin_ws/devel/share/common-lisp/ros/assigment1/msg/Color.lisp"
-  "/tmp/guest-obpl3l/catkin_ws/devel/share/common-lisp/ros/assigment1/msg/Circle.lisp"
-  "/tmp/guest-obpl3l/catkin_ws/devel/share/common-lisp/ros/assigment1/srv/AddTwoInts.lisp"
+  "/tmp/guest-vl71vb/ass1/devel/share/common-lisp/ros/assigment1/msg/Color.lisp"
+  "/tmp/guest-vl71vb/ass1/devel/share/common-lisp/ros/assigment1/msg/Circle.lisp"
+  "/tmp/guest-vl71vb/ass1/devel/share/common-lisp/ros/assigment1/srv/AddTwoInts.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

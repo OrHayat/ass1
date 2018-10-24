@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/find_circle.dir/src/find_circle.cpp.o"
-  "/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/find_circle.pdb"
-  "/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/find_circle"
+  "/tmp/guest-vl71vb/ass1/devel/lib/assigment1/find_circle.pdb"
+  "/tmp/guest-vl71vb/ass1/devel/lib/assigment1/find_circle"
 )
 
 # Per-language clean rules from dependency scanning.

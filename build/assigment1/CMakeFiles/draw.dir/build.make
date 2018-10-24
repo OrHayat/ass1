@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/guest-obpl3l/catkin_ws/src
+CMAKE_SOURCE_DIR = /tmp/guest-vl71vb/ass1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/guest-obpl3l/catkin_ws/build
+CMAKE_BINARY_DIR = /tmp/guest-vl71vb/ass1/build
 
 # Include any dependencies generated for this target.
 include assigment1/CMakeFiles/draw.dir/depend.make
@@ -58,17 +58,17 @@ include assigment1/CMakeFiles/draw.dir/progress.make
 include assigment1/CMakeFiles/draw.dir/flags.make
 
 assigment1/CMakeFiles/draw.dir/src/draw.cpp.o: assigment1/CMakeFiles/draw.dir/flags.make
-assigment1/CMakeFiles/draw.dir/src/draw.cpp.o: /tmp/guest-obpl3l/catkin_ws/src/assigment1/src/draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/guest-obpl3l/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assigment1/CMakeFiles/draw.dir/src/draw.cpp.o"
-	cd /tmp/guest-obpl3l/catkin_ws/build/assigment1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/draw.dir/src/draw.cpp.o -c /tmp/guest-obpl3l/catkin_ws/src/assigment1/src/draw.cpp
+assigment1/CMakeFiles/draw.dir/src/draw.cpp.o: /tmp/guest-vl71vb/ass1/src/assigment1/src/draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/guest-vl71vb/ass1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assigment1/CMakeFiles/draw.dir/src/draw.cpp.o"
+	cd /tmp/guest-vl71vb/ass1/build/assigment1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/draw.dir/src/draw.cpp.o -c /tmp/guest-vl71vb/ass1/src/assigment1/src/draw.cpp
 
 assigment1/CMakeFiles/draw.dir/src/draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/draw.dir/src/draw.cpp.i"
-	cd /tmp/guest-obpl3l/catkin_ws/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/guest-obpl3l/catkin_ws/src/assigment1/src/draw.cpp > CMakeFiles/draw.dir/src/draw.cpp.i
+	cd /tmp/guest-vl71vb/ass1/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/guest-vl71vb/ass1/src/assigment1/src/draw.cpp > CMakeFiles/draw.dir/src/draw.cpp.i
 
 assigment1/CMakeFiles/draw.dir/src/draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/draw.dir/src/draw.cpp.s"
-	cd /tmp/guest-obpl3l/catkin_ws/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/guest-obpl3l/catkin_ws/src/assigment1/src/draw.cpp -o CMakeFiles/draw.dir/src/draw.cpp.s
+	cd /tmp/guest-vl71vb/ass1/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/guest-vl71vb/ass1/src/assigment1/src/draw.cpp -o CMakeFiles/draw.dir/src/draw.cpp.s
 
 assigment1/CMakeFiles/draw.dir/src/draw.cpp.o.requires:
 
@@ -88,93 +88,93 @@ draw_OBJECTS = \
 # External object files for target draw
 draw_EXTERNAL_OBJECTS =
 
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: assigment1/CMakeFiles/draw.dir/src/draw.cpp.o
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: assigment1/CMakeFiles/draw.dir/build.make
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libimage_transport.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libmessage_filters.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libclass_loader.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/libPocoFoundation.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libdl.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libroscpp.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libroslib.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librospack.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libcv_bridge.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librosconsole.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librostime.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libcpp_common.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libpthread.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw: assigment1/CMakeFiles/draw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/guest-obpl3l/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw"
-	cd /tmp/guest-obpl3l/catkin_ws/build/assigment1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/draw.dir/link.txt --verbose=$(VERBOSE)
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: assigment1/CMakeFiles/draw.dir/src/draw.cpp.o
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: assigment1/CMakeFiles/draw.dir/build.make
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libimage_transport.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libmessage_filters.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libclass_loader.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/libPocoFoundation.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libdl.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libroscpp.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libroslib.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librospack.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libcv_bridge.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librosconsole.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/librostime.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/libcpp_common.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libpthread.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw: assigment1/CMakeFiles/draw.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/guest-vl71vb/ass1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw"
+	cd /tmp/guest-vl71vb/ass1/build/assigment1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/draw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-assigment1/CMakeFiles/draw.dir/build: /tmp/guest-obpl3l/catkin_ws/devel/lib/assigment1/draw
+assigment1/CMakeFiles/draw.dir/build: /tmp/guest-vl71vb/ass1/devel/lib/assigment1/draw
 
 .PHONY : assigment1/CMakeFiles/draw.dir/build
 
@@ -183,10 +183,10 @@ assigment1/CMakeFiles/draw.dir/requires: assigment1/CMakeFiles/draw.dir/src/draw
 .PHONY : assigment1/CMakeFiles/draw.dir/requires
 
 assigment1/CMakeFiles/draw.dir/clean:
-	cd /tmp/guest-obpl3l/catkin_ws/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/draw.dir/cmake_clean.cmake
+	cd /tmp/guest-vl71vb/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/draw.dir/cmake_clean.cmake
 .PHONY : assigment1/CMakeFiles/draw.dir/clean
 
 assigment1/CMakeFiles/draw.dir/depend:
-	cd /tmp/guest-obpl3l/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-obpl3l/catkin_ws/src /tmp/guest-obpl3l/catkin_ws/src/assigment1 /tmp/guest-obpl3l/catkin_ws/build /tmp/guest-obpl3l/catkin_ws/build/assigment1 /tmp/guest-obpl3l/catkin_ws/build/assigment1/CMakeFiles/draw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/guest-vl71vb/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-vl71vb/ass1/src /tmp/guest-vl71vb/ass1/src/assigment1 /tmp/guest-vl71vb/ass1/build /tmp/guest-vl71vb/ass1/build/assigment1 /tmp/guest-vl71vb/ass1/build/assigment1/CMakeFiles/draw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assigment1/CMakeFiles/draw.dir/depend
 

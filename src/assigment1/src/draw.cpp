@@ -39,7 +39,7 @@ int main(int argc, char ** argv)
   cv::Mat colored_img=cv_bridge::toCvShare(img, "bgr8")->image;//the image
 
   cv::circle(colored_img,cv::Point(circle->x,circle->y),(int)circle->radius,cv::Scalar(0,244,0),5);
-  
+  cv::imwrite("result.jpg",colored_img);
   cv::imshow("img",colored_img);
   cv::waitKey(0);
 

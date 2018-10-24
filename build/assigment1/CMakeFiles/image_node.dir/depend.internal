@@ -210,5 +210,5 @@ assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o
  /opt/ros/kinetic/include/std_msgs/String.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
- /tmp/guest-obpl3l/catkin_ws/devel/include/assigment1/Color.h
- /tmp/guest-obpl3l/catkin_ws/src/assigment1/src/image_node.cpp
+ /tmp/guest-vl71vb/ass1/devel/include/assigment1/Color.h
+ /tmp/guest-vl71vb/ass1/src/assigment1/src/image_node.cpp

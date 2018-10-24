@@ -1,8 +1,8 @@
-prefix=/tmp/guest-obpl3l/catkin_ws/install
+prefix=/tmp/guest-vl71vb/ass1/install
 
 Name: assigment1
 Description: Description of assigment1
 Version: 0.0.0
-Cflags: -I/tmp/guest-obpl3l/catkin_ws/install/include
-Libs: -L/tmp/guest-obpl3l/catkin_ws/install/lib 
+Cflags: -I/tmp/guest-vl71vb/ass1/install/include
+Libs: -L/tmp/guest-vl71vb/ass1/install/lib 
 Requires: message_runtime roscpp rospy std_msgs
