@@ -23,17 +23,49 @@ if(x<y)
 return x;
 else return y;
 }
+  boost::shared_ptr<assigment1::Color const> color_message;
+  boost::shared_ptr<sensor_msgs::Image const> img;
+ bool got_img=false;
+ bool got_color=false;
+
+void color_callback(const   boost::shared_ptr<assigment1::Color const> message)
+{
+if(message!=0)
+ {
+ color_message=message;
+ got_color=true; 
+ }
+}
+void img_callback(const boost::shared_ptr<sensor_msgs::Image const> msg)
+{
+if(msg!=0)
+  {
+   img=msg;
+   got_img=true;
+  }
+}
 
 int main(int argc, char ** argv)
 {
   ros::init(argc, argv, "ass1_circle_Search");
   
   ros::NodeHandle n;
-
-  boost::shared_ptr<assigment1::Color const> color_message;
-  boost::shared_ptr<sensor_msgs::Image const> img;
-  color_message=ros::topic::waitForMessage<assigment1::Color>("ass1/Color");
-  img=ros::topic::waitForMessage<sensor_msgs::Image>("ass1/Image");
+  ros::Subscriber color_Sub=n.subscribe("ass1/Color",1,color_callback);
+  ros::Subscriber img_Sub = n.subscribe("ass1/Image",1,img_callback);
+      ros::Rate rate(5);
+       while(n.ok()&&(!(got_img&&got_color)))
+{
+ros::spinOnce();
+rate.sleep();
+}
+if(!n.ok())
+{
+exit(0);
+}
+img_Sub.shutdown();
+color_Sub.shutdown();
+ // color_message=ros::topic::waitForMessage<assigment1::Color>("ass1/Color");
+ // img=ros::topic::waitForMessage<sensor_msgs::Image>("ass1/Image");
 
 
    cv::Mat colored_img=cv_bridge::toCvShare(img, "bgr8")->image;//the image

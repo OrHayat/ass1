@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/assigment1_generate_messages_nodejs"
-  "/tmp/guest-vl71vb/ass1/devel/share/gennodejs/ros/assigment1/msg/Color.js"
-  "/tmp/guest-vl71vb/ass1/devel/share/gennodejs/ros/assigment1/msg/Circle.js"
-  "/tmp/guest-vl71vb/ass1/devel/share/gennodejs/ros/assigment1/srv/AddTwoInts.js"
+  "/tmp/guest-dfdldb/ass1/devel/share/gennodejs/ros/assigment1/msg/Circle.js"
+  "/tmp/guest-dfdldb/ass1/devel/share/gennodejs/ros/assigment1/msg/Color.js"
+  "/tmp/guest-dfdldb/ass1/devel/share/gennodejs/ros/assigment1/srv/AddTwoInts.js"
 )
 
 # Per-language clean rules from dependency scanning.

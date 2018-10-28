@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/guest-vl71vb/ass1/src
+CMAKE_SOURCE_DIR = /tmp/guest-dfdldb/ass1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/guest-vl71vb/ass1/build
+CMAKE_BINARY_DIR = /tmp/guest-dfdldb/ass1/build
 
 # Utility rule file for assigment1_gennodejs.
 
@@ -63,10 +63,10 @@ assigment1/CMakeFiles/assigment1_gennodejs.dir/build: assigment1_gennodejs
 .PHONY : assigment1/CMakeFiles/assigment1_gennodejs.dir/build
 
 assigment1/CMakeFiles/assigment1_gennodejs.dir/clean:
-	cd /tmp/guest-vl71vb/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/assigment1_gennodejs.dir/cmake_clean.cmake
+	cd /tmp/guest-dfdldb/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/assigment1_gennodejs.dir/cmake_clean.cmake
 .PHONY : assigment1/CMakeFiles/assigment1_gennodejs.dir/clean
 
 assigment1/CMakeFiles/assigment1_gennodejs.dir/depend:
-	cd /tmp/guest-vl71vb/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-vl71vb/ass1/src /tmp/guest-vl71vb/ass1/src/assigment1 /tmp/guest-vl71vb/ass1/build /tmp/guest-vl71vb/ass1/build/assigment1 /tmp/guest-vl71vb/ass1/build/assigment1/CMakeFiles/assigment1_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/guest-dfdldb/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-dfdldb/ass1/src /tmp/guest-dfdldb/ass1/src/assigment1 /tmp/guest-dfdldb/ass1/build /tmp/guest-dfdldb/ass1/build/assigment1 /tmp/guest-dfdldb/ass1/build/assigment1/CMakeFiles/assigment1_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assigment1/CMakeFiles/assigment1_gennodejs.dir/depend
 

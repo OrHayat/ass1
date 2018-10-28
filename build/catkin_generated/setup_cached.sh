@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/tmp/guest-vl71vb/ass1/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/tmp/guest-vl71vb/ass1/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/tmp/guest-vl71vb/ass1/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/tmp/guest-vl71vb/ass1/build"
-export PYTHONPATH="/tmp/guest-vl71vb/ass1/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/tmp/guest-vl71vb/ass1/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/tmp/guest-zdknoq/catkin_ws/src:/tmp/guest-tndmdr/catkin_ws/src:/tmp/guest-obpl3l/catkin_ws/src:/tmp/guest-vl71vb/ass1/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/tmp/guest-dfdldb/ass1/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/tmp/guest-dfdldb/ass1/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/tmp/guest-dfdldb/ass1/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/tmp/guest-dfdldb/ass1/build"
+export PYTHONPATH="/tmp/guest-dfdldb/ass1/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/tmp/guest-dfdldb/ass1/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/tmp/guest-zdknoq/catkin_ws/src:/tmp/guest-tndmdr/catkin_ws/src:/tmp/guest-obpl3l/catkin_ws/src:/tmp/guest-vl71vb/ass1/src:/tmp/guest-dfdldb/ass1/src:$ROS_PACKAGE_PATH"
