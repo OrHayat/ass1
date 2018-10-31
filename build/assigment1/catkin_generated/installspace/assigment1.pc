@@ -1,8 +1,0 @@
-prefix=/tmp/guest-zitp2n/ass1/install
-
-Name: assigment1
-Description: Description of assigment1
-Version: 0.0.0
-Cflags: -I/tmp/guest-zitp2n/ass1/install/include
-Libs: -L/tmp/guest-zitp2n/ass1/install/lib 
-Requires: message_runtime roscpp rospy std_msgs

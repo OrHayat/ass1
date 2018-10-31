@@ -1,2 +1,0 @@
-assigment1
--DCATKIN_DEVEL_PREFIX=/tmp/guest-zitp2n/ass1/devel -DCMAKE_INSTALL_PREFIX=/tmp/guest-zitp2n/ass1/install -G Unix Makefiles
