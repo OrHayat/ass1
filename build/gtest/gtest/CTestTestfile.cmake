@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/gtest
-# Build directory: /tmp/guest-dfdldb/ass1/build/gtest/gtest
+# Build directory: /tmp/guest-zitp2n/ass1/build/gtest/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

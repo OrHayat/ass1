@@ -2,7 +2,7 @@
 
 message(STATUS "assigment1: 2 messages, 1 services")
 
-set(MSG_I_FLAGS "-Iassigment1:/tmp/guest-dfdldb/ass1/src/assigment1/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iassigment1:/tmp/guest-zitp2n/ass1/src/assigment1/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(assigment1_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" NAME_WE)
 add_custom_target(_assigment1_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "assigment1" "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "assigment1" "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" ""
 )
 
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
 add_custom_target(_assigment1_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "assigment1" "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "assigment1" "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" ""
 )
 
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
 add_custom_target(_assigment1_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "assigment1" "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "assigment1" "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" ""
 )
 
 #
@@ -39,13 +39,13 @@ add_custom_target(_assigment1_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/assigment1
 )
 _generate_msg_cpp(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/assigment1
@@ -53,7 +53,7 @@ _generate_msg_cpp(assigment1
 
 ### Generating Services
 _generate_srv_cpp(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/assigment1
@@ -71,11 +71,11 @@ add_custom_target(assigment1_generate_messages_cpp
 add_dependencies(assigment1_generate_messages assigment1_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_cpp _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(assigment1_generate_messages_cpp _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_cpp _assigment1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,13 +88,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS assigment1_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/assigment1
 )
 _generate_msg_eus(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/assigment1
@@ -102,7 +102,7 @@ _generate_msg_eus(assigment1
 
 ### Generating Services
 _generate_srv_eus(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/assigment1
@@ -120,11 +120,11 @@ add_custom_target(assigment1_generate_messages_eus
 add_dependencies(assigment1_generate_messages assigment1_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_eus _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(assigment1_generate_messages_eus _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_eus _assigment1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,13 +137,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS assigment1_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/assigment1
 )
 _generate_msg_lisp(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/assigment1
@@ -151,7 +151,7 @@ _generate_msg_lisp(assigment1
 
 ### Generating Services
 _generate_srv_lisp(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/assigment1
@@ -169,11 +169,11 @@ add_custom_target(assigment1_generate_messages_lisp
 add_dependencies(assigment1_generate_messages assigment1_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_lisp _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(assigment1_generate_messages_lisp _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_lisp _assigment1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,13 +186,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS assigment1_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/assigment1
 )
 _generate_msg_nodejs(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/assigment1
@@ -200,7 +200,7 @@ _generate_msg_nodejs(assigment1
 
 ### Generating Services
 _generate_srv_nodejs(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/assigment1
@@ -218,11 +218,11 @@ add_custom_target(assigment1_generate_messages_nodejs
 add_dependencies(assigment1_generate_messages assigment1_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_nodejs _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(assigment1_generate_messages_nodejs _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_nodejs _assigment1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,13 +235,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS assigment1_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/assigment1
 )
 _generate_msg_py(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/assigment1
@@ -249,7 +249,7 @@ _generate_msg_py(assigment1
 
 ### Generating Services
 _generate_srv_py(assigment1
-  "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv"
+  "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/assigment1
@@ -267,11 +267,11 @@ add_custom_target(assigment1_generate_messages_py
 add_dependencies(assigment1_generate_messages assigment1_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_py _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(assigment1_generate_messages_py _assigment1_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg" NAME_WE)
 add_dependencies(assigment1_generate_messages_py _assigment1_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

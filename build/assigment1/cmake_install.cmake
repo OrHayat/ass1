@@ -1,8 +1,8 @@
-# Install script for directory: /tmp/guest-dfdldb/ass1/src/assigment1
+# Install script for directory: /tmp/guest-zitp2n/ass1/src/assigment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/tmp/guest-dfdldb/ass1/install")
+  set(CMAKE_INSTALL_PREFIX "/tmp/guest-zitp2n/ass1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,59 +34,59 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/msg" TYPE FILE FILES
-    "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Color.msg"
-    "/tmp/guest-dfdldb/ass1/src/assigment1/msg/Circle.msg"
+    "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Color.msg"
+    "/tmp/guest-zitp2n/ass1/src/assigment1/msg/Circle.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/srv" TYPE FILE FILES "/tmp/guest-dfdldb/ass1/src/assigment1/srv/AddTwoInts.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/srv" TYPE FILE FILES "/tmp/guest-zitp2n/ass1/src/assigment1/srv/AddTwoInts.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-dfdldb/ass1/build/assigment1/catkin_generated/installspace/assigment1-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-zitp2n/ass1/build/assigment1/catkin_generated/installspace/assigment1-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/tmp/guest-dfdldb/ass1/devel/include/assigment1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/tmp/guest-zitp2n/ass1/devel/include/assigment1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/tmp/guest-dfdldb/ass1/devel/share/roseus/ros/assigment1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/tmp/guest-zitp2n/ass1/devel/share/roseus/ros/assigment1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/tmp/guest-dfdldb/ass1/devel/share/common-lisp/ros/assigment1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/tmp/guest-zitp2n/ass1/devel/share/common-lisp/ros/assigment1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/tmp/guest-dfdldb/ass1/devel/share/gennodejs/ros/assigment1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/tmp/guest-zitp2n/ass1/devel/share/gennodejs/ros/assigment1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/tmp/guest-dfdldb/ass1/devel/lib/python2.7/dist-packages/assigment1")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/tmp/guest-zitp2n/ass1/devel/lib/python2.7/dist-packages/assigment1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/tmp/guest-dfdldb/ass1/devel/lib/python2.7/dist-packages/assigment1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/tmp/guest-zitp2n/ass1/devel/lib/python2.7/dist-packages/assigment1")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/tmp/guest-dfdldb/ass1/build/assigment1/catkin_generated/installspace/assigment1.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/tmp/guest-zitp2n/ass1/build/assigment1/catkin_generated/installspace/assigment1.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-dfdldb/ass1/build/assigment1/catkin_generated/installspace/assigment1-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES "/tmp/guest-zitp2n/ass1/build/assigment1/catkin_generated/installspace/assigment1-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1/cmake" TYPE FILE FILES
-    "/tmp/guest-dfdldb/ass1/build/assigment1/catkin_generated/installspace/assigment1Config.cmake"
-    "/tmp/guest-dfdldb/ass1/build/assigment1/catkin_generated/installspace/assigment1Config-version.cmake"
+    "/tmp/guest-zitp2n/ass1/build/assigment1/catkin_generated/installspace/assigment1Config.cmake"
+    "/tmp/guest-zitp2n/ass1/build/assigment1/catkin_generated/installspace/assigment1Config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1" TYPE FILE FILES "/tmp/guest-dfdldb/ass1/src/assigment1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assigment1" TYPE FILE FILES "/tmp/guest-zitp2n/ass1/src/assigment1/package.xml")
 endif()
 

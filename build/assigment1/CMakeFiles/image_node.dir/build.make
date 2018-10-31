@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/guest-dfdldb/ass1/src
+CMAKE_SOURCE_DIR = /tmp/guest-zitp2n/ass1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/guest-dfdldb/ass1/build
+CMAKE_BINARY_DIR = /tmp/guest-zitp2n/ass1/build
 
 # Include any dependencies generated for this target.
 include assigment1/CMakeFiles/image_node.dir/depend.make
@@ -58,17 +58,17 @@ include assigment1/CMakeFiles/image_node.dir/progress.make
 include assigment1/CMakeFiles/image_node.dir/flags.make
 
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: assigment1/CMakeFiles/image_node.dir/flags.make
-assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /tmp/guest-dfdldb/ass1/src/assigment1/src/image_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/guest-dfdldb/ass1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o"
-	cd /tmp/guest-dfdldb/ass1/build/assigment1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_node.dir/src/image_node.cpp.o -c /tmp/guest-dfdldb/ass1/src/assigment1/src/image_node.cpp
+assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o: /tmp/guest-zitp2n/ass1/src/assigment1/src/image_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/guest-zitp2n/ass1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o"
+	cd /tmp/guest-zitp2n/ass1/build/assigment1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_node.dir/src/image_node.cpp.o -c /tmp/guest-zitp2n/ass1/src/assigment1/src/image_node.cpp
 
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_node.dir/src/image_node.cpp.i"
-	cd /tmp/guest-dfdldb/ass1/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/guest-dfdldb/ass1/src/assigment1/src/image_node.cpp > CMakeFiles/image_node.dir/src/image_node.cpp.i
+	cd /tmp/guest-zitp2n/ass1/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/guest-zitp2n/ass1/src/assigment1/src/image_node.cpp > CMakeFiles/image_node.dir/src/image_node.cpp.i
 
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_node.dir/src/image_node.cpp.s"
-	cd /tmp/guest-dfdldb/ass1/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/guest-dfdldb/ass1/src/assigment1/src/image_node.cpp -o CMakeFiles/image_node.dir/src/image_node.cpp.s
+	cd /tmp/guest-zitp2n/ass1/build/assigment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/guest-zitp2n/ass1/src/assigment1/src/image_node.cpp -o CMakeFiles/image_node.dir/src/image_node.cpp.s
 
 assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o.requires:
 
@@ -88,93 +88,93 @@ image_node_OBJECTS = \
 # External object files for target image_node
 image_node_EXTERNAL_OBJECTS =
 
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: assigment1/CMakeFiles/image_node.dir/build.make
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libimage_transport.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libclass_loader.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/libPocoFoundation.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libroscpp.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libroslib.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librospack.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libcv_bridge.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librosconsole.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librostime.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libcpp_common.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node: assigment1/CMakeFiles/image_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/guest-dfdldb/ass1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node"
-	cd /tmp/guest-dfdldb/ass1/build/assigment1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_node.dir/link.txt --verbose=$(VERBOSE)
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: assigment1/CMakeFiles/image_node.dir/src/image_node.cpp.o
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: assigment1/CMakeFiles/image_node.dir/build.make
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libimage_transport.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libclass_loader.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/libPocoFoundation.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libroscpp.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libroslib.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librospack.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libcv_bridge.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librosconsole.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/librostime.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/libcpp_common.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node: assigment1/CMakeFiles/image_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/guest-zitp2n/ass1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node"
+	cd /tmp/guest-zitp2n/ass1/build/assigment1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-assigment1/CMakeFiles/image_node.dir/build: /tmp/guest-dfdldb/ass1/devel/lib/assigment1/image_node
+assigment1/CMakeFiles/image_node.dir/build: /tmp/guest-zitp2n/ass1/devel/lib/assigment1/image_node
 
 .PHONY : assigment1/CMakeFiles/image_node.dir/build
 
@@ -183,10 +183,10 @@ assigment1/CMakeFiles/image_node.dir/requires: assigment1/CMakeFiles/image_node.
 .PHONY : assigment1/CMakeFiles/image_node.dir/requires
 
 assigment1/CMakeFiles/image_node.dir/clean:
-	cd /tmp/guest-dfdldb/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/image_node.dir/cmake_clean.cmake
+	cd /tmp/guest-zitp2n/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/image_node.dir/cmake_clean.cmake
 .PHONY : assigment1/CMakeFiles/image_node.dir/clean
 
 assigment1/CMakeFiles/image_node.dir/depend:
-	cd /tmp/guest-dfdldb/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-dfdldb/ass1/src /tmp/guest-dfdldb/ass1/src/assigment1 /tmp/guest-dfdldb/ass1/build /tmp/guest-dfdldb/ass1/build/assigment1 /tmp/guest-dfdldb/ass1/build/assigment1/CMakeFiles/image_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/guest-zitp2n/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-zitp2n/ass1/src /tmp/guest-zitp2n/ass1/src/assigment1 /tmp/guest-zitp2n/ass1/build /tmp/guest-zitp2n/ass1/build/assigment1 /tmp/guest-zitp2n/ass1/build/assigment1/CMakeFiles/image_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assigment1/CMakeFiles/image_node.dir/depend
 

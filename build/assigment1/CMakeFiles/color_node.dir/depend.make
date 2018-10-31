@@ -190,6 +190,6 @@ assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /opt/ros/kinetic/incl
 assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /opt/ros/kinetic/include/std_msgs/String.h
 assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
-assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /tmp/guest-dfdldb/ass1/devel/include/assigment1/Color.h
-assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /tmp/guest-dfdldb/ass1/src/assigment1/src/color_node.cpp
+assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /tmp/guest-zitp2n/ass1/devel/include/assigment1/Color.h
+assigment1/CMakeFiles/color_node.dir/src/color_node.cpp.o: /tmp/guest-zitp2n/ass1/src/assigment1/src/color_node.cpp
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/draw.dir/src/draw.cpp.o"
-  "/tmp/guest-dfdldb/ass1/devel/lib/assigment1/draw.pdb"
-  "/tmp/guest-dfdldb/ass1/devel/lib/assigment1/draw"
+  "/tmp/guest-zitp2n/ass1/devel/lib/assigment1/draw.pdb"
+  "/tmp/guest-zitp2n/ass1/devel/lib/assigment1/draw"
 )
 
 # Per-language clean rules from dependency scanning.

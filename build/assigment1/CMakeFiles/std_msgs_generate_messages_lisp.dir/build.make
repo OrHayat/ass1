@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/guest-dfdldb/ass1/src
+CMAKE_SOURCE_DIR = /tmp/guest-zitp2n/ass1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/guest-dfdldb/ass1/build
+CMAKE_BINARY_DIR = /tmp/guest-zitp2n/ass1/build
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build: std_msgs_genera
 .PHONY : assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 
 assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	cd /tmp/guest-dfdldb/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /tmp/guest-zitp2n/ass1/build/assigment1 && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /tmp/guest-dfdldb/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-dfdldb/ass1/src /tmp/guest-dfdldb/ass1/src/assigment1 /tmp/guest-dfdldb/ass1/build /tmp/guest-dfdldb/ass1/build/assigment1 /tmp/guest-dfdldb/ass1/build/assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/guest-zitp2n/ass1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-zitp2n/ass1/src /tmp/guest-zitp2n/ass1/src/assigment1 /tmp/guest-zitp2n/ass1/build /tmp/guest-zitp2n/ass1/build/assigment1 /tmp/guest-zitp2n/ass1/build/assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assigment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 
