@@ -16,7 +16,7 @@ Write 4 nodes:
 * $ rosrun assigment1 find_circle 
 * $ rosrun assigment1 draw
 
-### examples for rgbs inputs to give to *color_node* 
+### examples for rgb inputs to give to *color_node* 
 - red    = 255,0,0
 - blue   = 0,0,255
 - green  = 0,255,0
